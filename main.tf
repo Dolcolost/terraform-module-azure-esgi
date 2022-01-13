@@ -10,7 +10,7 @@ resource "azurerm_databricks_workspace" "databricks-firstdataproject" {
   sku                 = "trial"
 }
 
-resource "azurerm_storage_account" "esgiblobuwucute" {
+resource "azurerm_storage_account" "blobaccount" {
   name                     = "esgiblobuwucute"
   resource_group_name = azurerm_resource_group.firstdataproject.name
   location            = azurerm_resource_group.firstdataproject.location
