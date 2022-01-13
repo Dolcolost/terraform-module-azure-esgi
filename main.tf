@@ -11,7 +11,7 @@ resource "azurerm_databricks_workspace" "databricks-firstdataproject" {
 }
 
 resource "azurerm_storage_account" "blobaccount" {
-  name                     = "esgiblobUwU_cute"
+  name                     = "esgiblobUwUcute"
   resource_group_name = azurerm_resource_group.firstdataproject.name
   location            = azurerm_resource_group.firstdataproject.location
   account_tier             = "Standard"
